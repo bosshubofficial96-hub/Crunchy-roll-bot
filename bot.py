@@ -89,8 +89,8 @@ class Config:
     SUPPORT_IDS        = [int(x) for x in os.getenv("SUPPORT_IDS", "8525952693").split(",") if x.strip().isdigit()]
 
     # ── MTProto for 2GB files ─────────────────────────────────────────────────
-    API_ID             = int(os.getenv("API_ID", "0"))  # Get from my.telegram.org/apps
-    API_HASH           = os.getenv("API_HASH", "")
+    API_ID             = int(os.getenv("API_ID", "27806628"))  # Get from my.telegram.org/apps
+    API_HASH           = os.getenv("API_HASH", "25d88301e886b82826a525b7cf52e090")
     USE_MT_PROTO       = os.getenv("USE_MT_PROTO", "False").lower() == "true"
 
     # ── Auth Group ────────────────────────────────────────────────────────────
