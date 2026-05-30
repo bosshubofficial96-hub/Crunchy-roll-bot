@@ -115,7 +115,7 @@
   class Config:
       """ᴍᴀꜱᴛᴇʀ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ — ᴀʟʟ ᴠᴀʟᴜᴇꜱ ꜰʀᴏᴍ ᴇɴᴠ ᴠᴀʀꜱ"""
 
-      BOT_TOKEN        = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+      BOT_TOKEN        = os.getenv("BOT_TOKEN", "8320812013:AAG_IhbQE1e1ax6uZaSWZrbWo5A3sYYUg5Y")
       ADMIN_IDS        = [int(x) for x in os.getenv("ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
       SUPER_ADMIN_IDS  = [int(x) for x in os.getenv("SUPER_ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
       MOD_IDS          = [int(x) for x in os.getenv("MOD_IDS", "8525952693").split(",") if x.strip().isdigit()]
@@ -123,8 +123,8 @@
       SUPPORT_CHANNEL  = os.getenv("SUPPORT_CHANNEL", "https://t.me/funnytamilan")
 
       # ── MTProto ───────────────────────────────────────────────────────────────
-      API_ID           = int(os.getenv("API_ID", "0"))
-      API_HASH         = os.getenv("API_HASH", "")
+      API_ID           = int(os.getenv("API_ID", "27806628"))
+      API_HASH         = os.getenv("API_HASH", "25d88301e886b82826a525b7cf52e090")
       USE_MT_PROTO     = os.getenv("USE_MT_PROTO", "False").lower() == "true"
 
       # ── Auth Group / Force-sub ─────────────────────────────────────────────
@@ -135,8 +135,8 @@
       FORCE_SUB_ENABLED= os.getenv("FORCE_SUB_ENABLED", "False").lower() == "true"
 
       # ── Crunchyroll ────────────────────────────────────────────────────────
-      CR_EMAIL         = os.getenv("CR_EMAIL", "")
-      CR_PASSWORD      = os.getenv("CR_PASSWORD", "")
+      CR_EMAIL         = os.getenv("CR_EMAIL", "Namtran.mov@gmail.com")
+      CR_PASSWORD      = os.getenv("CR_PASSWORD", "AUnime$Figs2015%")
       CR_PREMIUM_ACCOUNT = os.getenv("CR_PREMIUM_ACCOUNT", "False").lower() == "true"
 
       # ── Subscription ──────────────────────────────────────────────────────
