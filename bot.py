@@ -132,7 +132,7 @@ class Config:
         "480p":  {"height": 480,  "bitrate": "1200k",  "crf": 26, "audio": "128k"},
         "720p":  {"height": 720,  "bitrate": "2500k",  "crf": 23, "audio": "192k"},
         "1080p": {"height": 1080, "bitrate": "5000k",  "crf": 20, "audio": "256k"},
-        "4K":    {ight": 2160, "bitrate": "16000k", "crf": 18, "audio": "320k"},
+        "4K":    {"height": 2160, "bitrate": "16000k", "crf": 18, "audio": "320k"},
         "HDR":   {"height": 1080, "bitrate": "8000k",  "crf": 17, "audio": "320k", "hdr": True},
     }
     PREMIUM_QUALITIES  = ["1080p", "4K", "HDR"]
