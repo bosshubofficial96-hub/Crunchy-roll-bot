@@ -99,7 +99,7 @@ class Config:
     MAX_CONCURRENT          = int(os.getenv("MAX_CONCURRENT", "3"))
     MAX_QUEUE_PER_USER      = int(os.getenv("MAX_QUEUE_PER_USER", "10"))
     MAX_BATCH_SIZE          = int(os.getenv("MAX_BATCH_SIZE", "20"))
-    MAX_FILE_SIZE_MB        = int(os.getenv("MAX_FILE_SIZE_MB", "2000"))
+    MAX_FILE_SIZE_MB        = int(os.getenv("MAX_FILE_SIZE_MB", "8000"))
     DOWNLOAD_TIMEOUT        = int(os.getenv("DOWNLOAD_TIMEOUT", "3600"))
 
     # ── Video Quality Presets ─────────────────────────────────────────────────
