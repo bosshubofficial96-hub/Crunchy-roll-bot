@@ -65,22 +65,22 @@ class Config:
     """Master Configuration — all values pulled from environment variables"""
 
     # ── Core ──────────────────────────────────────────────────────────────────
-    BOT_TOKEN          = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-    ADMIN_IDS          = [int(x) for x in os.getenv("ADMIN_IDS", "123456789").split(",") if x.strip().isdigit()]
-    SUPER_ADMIN_IDS    = [int(x) for x in os.getenv("SUPER_ADMIN_IDS", "123456789").split(",") if x.strip().isdigit()]
-    MOD_IDS            = [int(x) for x in os.getenv("MOD_IDS", "").split(",") if x.strip().isdigit()]
-    SUPPORT_IDS        = [int(x) for x in os.getenv("SUPPORT_IDS", "").split(",") if x.strip().isdigit()]
+    BOT_TOKEN          = os.getenv("BOT_TOKEN", "8320812013:AAG_IhbQE1e1ax6uZaSWZrbWo5A3sYYUg5Y")
+    ADMIN_IDS          = [int(x) for x in os.getenv("ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
+    SUPER_ADMIN_IDS    = [int(x) for x in os.getenv("SUPER_ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
+    MOD_IDS            = [int(x) for x in os.getenv("MOD_IDS", "8525952693").split(",") if x.strip().isdigit()]
+    SUPPORT_IDS        = [int(x) for x in os.getenv("SUPPORT_IDS", "8525952693").split(",") if x.strip().isdigit()]
 
     # ── Auth Group ────────────────────────────────────────────────────────────
-    AUTH_GROUP_ID      = int(os.getenv("AUTH_GROUP_ID", "0"))       # Group ID that must be joined
-    AUTH_GROUP_LINK    = os.getenv("AUTH_GROUP_LINK", "")
-    AUTH_CHANNEL_ID    = int(os.getenv("AUTH_CHANNEL_ID", "0"))     # Channel ID for force-sub
-    AUTH_CHANNEL_LINK  = os.getenv("AUTH_CHANNEL_LINK", "")
+    AUTH_GROUP_ID      = int(os.getenv("AUTH_GROUP_ID", "-1003885991766"))       # Group ID that must be joined
+    AUTH_GROUP_LINK    = os.getenv("AUTH_GROUP_LINK", "https://t.me/+2b-W1AazZzhhMWNl")
+    AUTH_CHANNEL_ID    = int(os.getenv("AUTH_CHANNEL_ID", "-1003866925955"))     # Channel ID for force-sub
+    AUTH_CHANNEL_LINK  = os.getenv("AUTH_CHANNEL_LINK", "https://t.me/+7RIevYB6Aog1YzFl")
     FORCE_SUB_ENABLED  = os.getenv("FORCE_SUB_ENABLED", "False").lower() == "true"
 
     # ── Crunchyroll ───────────────────────────────────────────────────────────
-    CR_EMAIL           = os.getenv("CR_EMAIL", "")
-    CR_PASSWORD        = os.getenv("CR_PASSWORD", "")
+    CR_EMAIL           = os.getenv("CR_EMAIL", "minh-tam.hb@hotmail.fr")
+    CR_PASSWORD        = os.getenv("CR_PASSWORD", "DoudoulBanhBao")
     CR_PREMIUM         = os.getenv("CR_PREMIUM", "False").lower() == "true"
 
     # ── Subscription Prices (Telegram Stars) ─────────────────────────────────
