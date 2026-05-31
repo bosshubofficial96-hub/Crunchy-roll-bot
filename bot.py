@@ -176,7 +176,7 @@ def safe_int(val: Any, default: int = 0) -> int:
 class Config:
     """ᴍᴀꜱᴛᴇʀ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ — ᴀʟʟ ᴠᴀʟᴜᴇꜱ ꜰʀᴏᴍ ᴇɴᴠ ᴠᴀʀꜱ"""
 
-    BOT_TOKEN        = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+    BOT_TOKEN        = os.getenv("BOT_TOKEN", "8320812013:AAG_IhbQE1e1ax6uZaSWZrbWo5A3sYYUg5Y")
     ADMIN_IDS        = [int(x) for x in os.getenv("ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
     SUPER_ADMIN_IDS  = [int(x) for x in os.getenv("SUPER_ADMIN_IDS", "8525952693").split(",") if x.strip().isdigit()]
     MOD_IDS          = [int(x) for x in os.getenv("MOD_IDS", "8525952693").split(",") if x.strip().isdigit()]
