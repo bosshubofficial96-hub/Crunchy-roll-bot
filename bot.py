@@ -196,8 +196,8 @@ class Config:
     FORCE_SUB_ENABLED= os.getenv("FORCE_SUB_ENABLED", "False").lower() == "true"
 
     # ── Crunchyroll ────────────────────────────────────────────────────────
-    CR_EMAIL         = os.getenv("CR_EMAIL", "Namtran.mov@gmail.com")
-    CR_PASSWORD      = os.getenv("CR_PASSWORD", "AUnime$Figs2015%")
+    CR_EMAIL         = os.getenv("CR_EMAIL", "kukorvsagumwhma8@hotmail.com")
+    CR_PASSWORD      = os.getenv("CR_PASSWORD", "XvoSUwGhrlRgE")
     CR_PREMIUM_ACCOUNT = os.getenv("CR_PREMIUM_ACCOUNT", "False").lower() == "true"
 
     # ── Subscription ──────────────────────────────────────────────────────
