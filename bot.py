@@ -37,22 +37,22 @@ from functools import wraps
 from concurrent.futures import ThreadPoolExecutor
 
   # ─────────────────────────── TELEGRAM IMPORTS ────────────────────────────────
-  try:
-      from telegram import (
-          Update, InlineKeyboardButton, InlineKeyboardMarkup,
-          LabeledPrice, BotCommand, InputFile, InputMediaPhoto,
-          ReplyKeyboardMarkup, KeyboardButton, ChatPermissions,
-          MessageEntity
+try:
+   from telegram import (
+       Update, InlineKeyboardButton, InlineKeyboardMarkup,
+       LabeledPrice, BotCommand, InputFile, InputMediaPhoto,
+       ReplyKeyboardMarkup, KeyboardButton, ChatPermissions,
+       MessageEntity
       )
-      from telegram.ext import (
-          Application, CommandHandler, CallbackQueryHandler, MessageHandler,
-          filters, ContextTypes, PreCheckoutQueryHandler, ConversationHandler,
-          JobQueue
+   from telegram.ext import (
+       Application, CommandHandler, CallbackQueryHandler, MessageHandler,
+       filters, ContextTypes, PreCheckoutQueryHandler, ConversationHandler,
+       JobQueue
       )
-      from telegram.constants import ParseMode, ChatType
-      from telegram.error import TelegramError, BadRequest, RetryAfter, Forbidden
-      import telegram
-  except ImportError:
+   from telegram.constants import ParseMode, ChatType
+   from telegram.error import TelegramError, BadRequest, RetryAfter, Forbidden
+   import telegram
+except ImportError:
       print("❌ python-telegram-bot not installed! Run: pip install 'python-telegram-bot[job-queue]'")
       sys.exit(1)
 
